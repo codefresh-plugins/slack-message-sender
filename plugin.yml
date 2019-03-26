@@ -11,7 +11,7 @@ sources:
 maintainers: # (optional)
   - name: Oleg Sucharevich
     email: olegs@codefresh.io
-icon: https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png
+icon: https://github.com/codefresh-plugins/slack-message-sender/blob/master/icon.jpg
 envs:
   - name: WEBHOOK_URL
     type: required
