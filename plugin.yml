@@ -1,7 +1,7 @@
 image: codefreshplugins/slack-message-sender
 version: 0.1.0
 categories:
-  - Featured
+  - Notifications
 description: Send message to slack channel
 keywords:
   - slack
