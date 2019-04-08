@@ -7,17 +7,8 @@ keywords:
   - slack
   - notifications
 sources:
-  - https://github.com/codefresh-contrib/slack-message-sender
+  - https://github.com/codefresh-plugins/slack-message-sender
 maintainers: # (optional)
   - name: Oleg Sucharevich
     email: olegs@codefresh.io
 icon: https://raw.githubusercontent.com/codefresh-plugins/slack-message-sender/master/icon.jpg
-envs:
-  - name: WEBHOOK_URL
-    type: required
-    description: Url to the channel
-  - name: SLACK_MESSAGE
-    type: required
-    description: Message to send
-  - name: DEBUG
-    description: print verbose install output
