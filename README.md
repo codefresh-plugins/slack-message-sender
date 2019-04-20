@@ -1,7 +1,15 @@
 # Slack message sender
 
-This plugin is part of Codefresh native (plugins)[https://github.com/codefresh-io/plugins]
+A plugin for easy sending messages to Slack from a Codefresh pipeline
 
+## Usage
+```
+sendSlack:
+    title: notifySlack
+    image: 'codefreshplugins/slack-message-sender:0.1'
+    commands:
+      - slack-message-sender send --webhook-url https://my-webhook-url --message "My message"
+```
 ## Run locally
 `go get codefresh-io/slack-message-sender`
 `slack-message-sender send --help`
